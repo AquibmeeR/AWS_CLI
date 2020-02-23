@@ -1,0 +1,4 @@
+aws s3 mb s3://meer2020
+aws s3 cp C:\Users\ameen\Desktop\s3data s3://meer2020/ --recursive
+aws s3 mb s3://meer2020v1
+aws s3 sync s3://meer2020 s3://meer2020v1
